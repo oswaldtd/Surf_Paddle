@@ -1,4 +1,328 @@
-.background: {
-  max-width: 100%;
-  max-height:100%;
+body {
+  margin: 0;
+}
+
+.main-header {
+  background-image: url(assets/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 523px;
+  position: relative;
+  margin: 0 67px;
+}
+
+ .main-header .logo{
+   background-image: url(assets/logo.png);
+   background-repeat: no-repeat;
+   height: 45px;
+   padding: 10px 0 0 60px;
+   margin: 0;
+   position: absolute;
+   top: 10px;
+   left: 140px;
+   font-size:12pt;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+   color:#093450;
+}
+
+.main-header .heading {
+  position: relative;
+  top: 195px;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main-header .heading h1,
+.main-header .heading h2{
+  text-align: center;
+  margin: 0px;
+
+}
+
+.main-header .heading h1 {
+  font-size: 100px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: -20px;
+}
+
+.main-header .heading h2 {
+  font-size: 16px;
+  color: #093450;
+  font-weight: 400;
+}
+
+.main-header nav{
+  height:45px;
+  position: absolute;
+  display:inline;
+  top:17px;
+  right:155px;
+
+}
+
+.main-header a{
+  font-family: 'Oswald', sans-serif;
+  font-size: 13pt;
+  font-weight: 600;
+  text-decoration: none;
+  color: #093450;
+  padding: 0 10px 0 0;
+}
+
+/**Begining of Body**/
+
+.main-article{
+  display: inline-block;
+  width: 45%;
+  margin: 65px 0 0 150px;
+}
+
+.main-article .heading{
+  font-family:'Oswald', sans-serif;
+  font-size:65px;
+  color: #093450;
+  margin: 0;
+  font-weight: 400;
+  line-height: 70px;
+  display: inline;
+}
+
+.main-article .article-info{
+  background-image: url(assets/avatar.png);
+  background-repeat: no-repeat;
+  background-size: 22px 22px;
+  height: 21px;
+  padding: 5px 30px;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.main-article .article-info .name{
+  text-decoration: none;
+  color: #2277B7;
+  display: inline;
+}
+
+.main-article .article-info h1{
+  color:#AFBDC7;
+  display: inline;
+  font-weight: normal;
+  font-size: 13px;
+  padding-left: 10px;
+}
+
+.main-article .body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #545E66;
+  margin-top: 19px;
+  line-height: 25px;
+  margin: 30px 0;
+}
+
+.body a{
+  color: #AFBDC7;
+}
+
+.body blockquote h1{
+  font-size: 28px;
+  font-weight: normal;
+  color: #2277B7;
+  border-left: 2px solid #AFBDC7;
+  margin: 23px 0px 0px -34px;
+  padding: 15px 17px;
+}
+
+.social a {
+  padding: 0 0 0 35px;
+  background-color: #7E868B;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  display: inline-block;
+  margin: 0;
+}
+
+.social a:hover {
+  background-color: #395C74;
+}
+
+.social a:hover span{
+  background-color: #3F8AC2;
+}
+
+.comments-btn {
+  background-image: url(assets/icon-comment.png);
+}
+
+.read-btn {
+  background-image: url(assets/icon-upload.png);
+}
+
+.share-btn {
+  background-image: url(assets/icon-share.png);
+}
+
+.social a span {
+  padding: 5px;
+  display: inline-block;
+  background: #C8D1D8;
+  color: #fafafa;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+/** sidebar**/
+
+.sidebar{
+  display: inline-block;
+  position: absolute;
+  width:28%;
+  margin: 82px 0 0;
+}
+
+.sidebar .author{
+  background-image: url(assets/avatar.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding: 94px 0 0 0;
+  margin: 0;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #2277B7;
+  text-align: center;
+}
+
+.media{
+  padding: 0px 81px;
+
+}
+
+.sidebar .media a{
+ color:#AFBDC7;
+ text-decoration: none;
+ font-family: 'Open Sans', sans-serif;
+ font-size: 14px;
+ font-weight: 400;
+}
+
+.facebook-lnk{
+  border-left: 1px solid #fafafa;
+  border-right: 1px solid #fafafa;
+  padding: 0 5px;
+}
+
+.sidebar a:hover span{
+  color:#2277B7;
+}
+
+.ad {
+  margin: 0;
+  width: 100%;
+}
+
+.ad img{
+  width: inherit;
+}
+
+.ad a{
+  font-family: 'Open Sans', sans-serif;
+  color: #AFBDC7;
+  float:right;
+  padding: 0 33px 0 0;
+  font-size: 12px;
+}
+
+.ad a:hover span{
+  color:#2277B7;
+  text-decoration: underline;
+}
+
+.sidebar-text h1{
+  font-family: 'Oswald', sans-serif;
+  color: #2277B7;
+  padding:0 44px;
+  margin-bottom: 0;
+}
+
+.sidebar-text p{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  color:#AFBDC7;
+  font-size: 14px;
+  margin: 0;
+  padding: 5px 45px;
+}
+
+.sidebar-text a{
+  color: #AFBDC7;
+
+}
+
+a:hover span{
+  color: #2277B7;
+}
+
+/**bottem third of**/
+ .popular-posts{
+  position: absolute;
+  width:100%;
+}
+
+.headline {
+  font-family: 'Oswald', sans-serif;
+  font-size:60px;
+  color: #093450;
+  font-weight: 400;
+  text-align: center;
+}
+
+.popular-img{
+  padding:0 0 0 110px;
+}
+
+.popular-img a {
+  display: block;
+  height:300px;
+  width:300px;
+  background-repeat: no-repeat;
+  margin: 0;
+  float: left;
+}
+
+.surf-lnk{
+  background-image: url(assets/article-image-1.jpg);
+}
+
+.beer-lnk{
+  background-image: url(assets/article-image-2.jpg);
+}
+
+.zac-lnk{
+  background-image: url(assets/article-image-3.jpg);
+}
+
+.bar-lnk{
+  background-image: url(assets/article-image-4.jpg);
+}
+
+.popular-posts .popular-img a{
+  text-decoration: none;
+}
+
+.popular-posts .popular-img span{
+  color:#093450;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  padding-top:
+}
+
+.popular-img a:hover span{
+  color: #fafafa;
 }
