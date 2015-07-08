@@ -9,6 +9,7 @@ body {
   height: 523px;
   position: relative;
   margin: 0 67px;
+  overflow: auto;
 }
 
  .main-header .logo{
@@ -76,7 +77,7 @@ body {
 .main-article{
   display: inline-block;
   width: 45%;
-  margin: 65px 0 0 150px;
+  margin: 65px 0 0 233px;
 }
 
 .main-article .heading{
@@ -92,10 +93,9 @@ body {
 .main-article .article-info{
   background-image: url(assets/avatar.png);
   background-repeat: no-repeat;
-  background-size: 22px 22px;
-  height: 21px;
-  padding: 5px 30px;
-  margin: 0;
+  background-size: 23.5px 23.5px;
+  padding: 4px 23px;
+  margin: 5px 0;
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   font-weight: 400;
@@ -121,7 +121,7 @@ body {
   color: #545E66;
   margin-top: 19px;
   line-height: 25px;
-  margin: 30px 0;
+  padding-top: 1px;
 }
 
 .body a{
@@ -133,8 +133,12 @@ body {
   font-weight: normal;
   color: #2277B7;
   border-left: 2px solid #AFBDC7;
-  margin: 23px 0px 0px -34px;
+  margin: 37px 0px 27px -34px;
   padding: 15px 17px;
+}
+
+.social{
+  padding:22px 3px 68px;
 }
 
 .social a {
@@ -143,7 +147,7 @@ body {
   background-repeat: no-repeat;
   background-position: 10px center;
   display: inline-block;
-  margin: 0;
+  margin-left: 6px;
 }
 
 .social a:hover {
@@ -181,8 +185,8 @@ body {
 .sidebar{
   display: inline-block;
   position: absolute;
-  width:28%;
-  margin: 82px 0 0;
+  width:25%;
+  margin: 83px 0 0 0;
 }
 
 .sidebar .author{
@@ -200,7 +204,7 @@ body {
 }
 
 .media{
-  padding: 0px 81px;
+  padding: 0px 78px;
 
 }
 
@@ -224,7 +228,8 @@ body {
 
 .ad {
   margin: 0;
-  width: 100%;
+  width: 88%;
+  padding: 53px 48px 0;
 }
 
 .ad img{
@@ -235,8 +240,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #AFBDC7;
   float:right;
-  padding: 0 33px 0 0;
-  font-size: 12px;
+  padding: 0 36px 0 0;
+  font-size: 14px;
 }
 
 .ad a:hover span{
@@ -247,8 +252,7 @@ body {
 .sidebar-text h1{
   font-family: 'Oswald', sans-serif;
   color: #2277B7;
-  padding:0 44px;
-  margin-bottom: 0;
+  padding:45px 0 0 44px;
 }
 
 .sidebar-text p{
@@ -256,8 +260,9 @@ body {
   font-weight: 300;
   color:#AFBDC7;
   font-size: 14px;
-  margin: 0;
-  padding: 5px 45px;
+  padding: 0px 45px;
+  line-height: 25px;
+  margin-top: -17px;
 }
 
 .sidebar-text a{
@@ -277,23 +282,40 @@ a:hover span{
 
 .headline {
   font-family: 'Oswald', sans-serif;
-  font-size:60px;
+  font-size:65px;
   color: #093450;
   font-weight: 400;
   text-align: center;
+  border-top: 1px solid #AFBDC7;
+  margin:0 65px;
+  padding: 23px;
 }
 
 .popular-img{
-  padding:0 0 0 110px;
+  padding: 0;
+  width: 90%;
+  margin: 0 auto;
+  background: #2277B7;
+  overflow: auto;
+  border-bottom: 100px solid #083452;
 }
 
 .popular-img a {
   display: block;
-  height:300px;
-  width:300px;
+  min-height: 300px;
+  width:25%;
+  height: 325px;
   background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
   float: left;
+  text-decoration: none;
+  opacity: .4;
+  position: relative;
+}
+
+.popular-img a:hover {
+  opacity: .9;
 }
 
 .surf-lnk{
@@ -312,17 +334,47 @@ a:hover span{
   background-image: url(assets/article-image-4.jpg);
 }
 
-.popular-posts .popular-img a{
-  text-decoration: none;
-}
-
 .popular-posts .popular-img span{
-  color:#093450;
+  color: black;
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
-  padding-top:
+  position: absolute;
+  bottom: 20px;
 }
 
 .popular-img a:hover span{
   color: #fafafa;
+}
+
+.bottom-border .iron-logo{
+  background-image: url(assets/theironyard-logo.png);
+  background-repeat: no-repeat;
+  height:45px;
+  position: absolute;
+  bottom: 15px;
+  left: 235px;
+  font-family: 'Open Sans', sans-serif;
+  color: #A4B5C1;
+  padding:14px 0 0 60px;
+  font-weight: 400;
+  font-size: 12.5px;
+  margin: 0;
+}
+
+.navigation{
+  position: absolute;
+  right: 240px;
+  bottom: 40px;
+}
+
+.navigation a{
+  text-decoration: none;
+  color: #A4B5C1;
+  font-family:'Open Sans', sans-serif;
+  font-size: 13px;
+  padding-left: 5px;
+}
+
+.navigation a .nav2{
+  border-left: 1px solid #A4B5C1;
 }
