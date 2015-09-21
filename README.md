@@ -45,7 +45,4 @@ Make it responsive.
 Use the PDF to see what the responsive mockup looks like
 We've not talked about how to make things responsive yet, but if you are interested in working ahead, go for it.
 
-A few hints
-
-Use %'s instead of px widths
-Use break points - read more about them here
+Project on Github Pages
