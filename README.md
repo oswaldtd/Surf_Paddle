@@ -46,5 +46,3 @@ Use the PDF to see what the responsive mockup looks like
 We've not talked about how to make things responsive yet, but if you are interested in working ahead, go for it.
 
 Project is up on Github Pages
-
-http://oswaldtd.github.io/Surf_Paddle/
