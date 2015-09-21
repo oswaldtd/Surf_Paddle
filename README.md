@@ -45,4 +45,4 @@ Make it responsive.
 Use the PDF to see what the responsive mockup looks like
 We've not talked about how to make things responsive yet, but if you are interested in working ahead, go for it.
 
-Project on Github Pages
+Project is up on Github Pages
