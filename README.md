@@ -45,7 +45,6 @@ Make it responsive.
 Use the PDF to see what the responsive mockup looks like
 We've not talked about how to make things responsive yet, but if you are interested in working ahead, go for it.
 
-A few hints
+Project is up on Github Pages
 
-Use %'s instead of px widths
-Use break points - read more about them here
+http://oswaldtd.github.io/Surf_Paddle/
