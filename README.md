@@ -4,8 +4,6 @@ http://oswaldtd.github.io/Surf_Paddle/
 
 Creating an html page simply from an image file.
 
-After completing this assignment, you be able to effectively use
-
 All of the assets are located in the /assets folder.
 
 This was done to be as pixel perfect as possible. To help with this I used the Chrome Plugin, PerfectPixel.
