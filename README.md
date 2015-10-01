@@ -1,4 +1,4 @@
-http://username.github.io/projectName/
+http://oswaldtd.github.io/Surf_Paddle/
 
 #Description
 
